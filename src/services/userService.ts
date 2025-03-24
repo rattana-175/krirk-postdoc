@@ -137,7 +137,7 @@ export const userService = {
         try {
           const errorData = JSON.parse(errorText);
           console.error("Parsed error data:", errorData);
-        } catch (e) {
+        } catch (_) {
           // หากไม่สามารถแปลงเป็น JSON ได้
         }
         
