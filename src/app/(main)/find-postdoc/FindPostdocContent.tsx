@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
-import Link from 'next/link'
+// import Link from 'next/link'
 import Cookies from "js-cookie"
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL
@@ -88,7 +88,7 @@ export default function FindPostdocContent() {
       
       if (!response.ok) {
       // ดึงข้อความผิดพลาดจาก response ถ้ามี
-        let errorText = await response.text();
+      const  errorText = await response.text();
         console.error("API Error Response:", errorText);
         throw new Error(`API request failed with status ${response.status}: ${errorText}`)
       }
@@ -137,9 +137,9 @@ export default function FindPostdocContent() {
   }
 
   // สร้าง URL สำหรับการดูโปรไฟล์
-  const getProfileUrl = (postdocId: number): string => {
-    return `/postdoc/profile/${postdocId}`
-  }
+  // const getProfileUrl = (postdocId: number): string => {
+  //   return `/postdoc/profile/${postdocId}`
+  // }
 
   return (
     <div className="relative bg-white pt-24 pb-16">

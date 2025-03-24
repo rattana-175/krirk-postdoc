@@ -110,7 +110,7 @@ export default function FindPostdocContent() {
       
       if (!response.ok) {
       // ดึงข้อความผิดพลาดจาก response ถ้ามี
-        let errorText = await response.text();
+      const  errorText = await response.text();
         console.error("API Error Response:", errorText);
         throw new Error(`API request failed with status ${response.status}: ${errorText}`)
       }
