@@ -122,7 +122,7 @@ export const saveProfile = async (
     const month = String(formData.birth_month).padStart(2, '0');
     const day = String(formData.birth_day).padStart(2, '0');
     
-    let updatedFormData = {
+    const  updatedFormData = {
       ...formData,
       birth_date: `${christianYear}-${month}-${day}`
     };
