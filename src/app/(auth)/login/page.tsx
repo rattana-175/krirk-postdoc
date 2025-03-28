@@ -13,7 +13,7 @@ export default function LoginPage() {
       {/* Left Side - Image */}
       <div className="hidden lg:block lg:w-1/2 relative">
         <Image
-          src="/images/login-bg.jpeg"
+          src="/images/postdoc_login.jpg"
           alt="Students"
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
