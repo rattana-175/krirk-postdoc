@@ -105,11 +105,11 @@ const Hero = () => {
           {/* Right Side - Content */}
           <div className="flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              ค้นหานักวิจัย/สาขาวิชา
+                Find Researchers/Fields of Study            
             </h1>
             <p className="text-lg text-gray-600 mb-6">
-              Postdoc ตรวจสอบนักวิจัย รวมนักศึกษาวิจัย สาขาที่สนใจ เยอะที่สุดในไทย<br/>
-              มาพร้อมระบบ Ai จับคู่งานกับโปรไฟล์ของคุณ
+              Postdoc researcher verification, including research students and fields of interest"RetryClaude can make mistakes. Please double-check responses.<br/>
+              
             </p>
             
             {/* Search Box */}
