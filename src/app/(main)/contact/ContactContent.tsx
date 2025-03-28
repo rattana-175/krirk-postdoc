@@ -43,8 +43,8 @@ export default function ContactContent() {
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-6">ติดต่อเรา</h1>
         <p className="text-lg text-gray-600 mb-8">
-          มีคำถามหรือข้อสงสัย? เราพร้อมช่วยเหลือคุณ
-          ติดต่อเราได้ตามช่องทางด้านล่าง
+          Have questions or concerns? We're ready to help you.
+          Contact us through the channels below.
         </p>
       </div>
 
@@ -80,7 +80,7 @@ export default function ContactContent() {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                   <p className="text-gray-600">
-                    เลขที่ 3 ซ.รามอินทรา 1 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพฯ 10220
+                    No. 3 Soi Ramindra 1, Khwaeng Anusawari, Khet Bang Khen, Krung Thep Maha Nakhon 10220
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function ContactContent() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-1">เบอร์โทร</h3>
+                  <h3 className="font-semibold text-gray-900 mb-1">Tel.</h3>
                   <p className="text-gray-600">02-9705820</p>
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function ContactContent() {
           {/* แบบฟอร์มติดต่อ */}
           <div className="bg-white p-8 rounded-lg border border-gray-200 shadow-sm">
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">
-              ส่งข้อความถึงเรา
+              Message
             </h2>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -146,7 +146,7 @@ export default function ContactContent() {
                   htmlFor="name"
                   className="block text-sm font-medium text-gray-700 mb-1"
                 >
-                  ชื่อ-นามสกุล
+                  Name-Lastname
                 </label>
                 <input
                   type="text"
@@ -164,7 +164,7 @@ export default function ContactContent() {
                   htmlFor="email"
                   className="block text-sm font-medium text-gray-700 mb-1"
                 >
-                  อีเมล
+                  Email
                 </label>
                 <input
                   type="email"
@@ -182,7 +182,7 @@ export default function ContactContent() {
                   htmlFor="subject"
                   className="block text-sm font-medium text-gray-700 mb-1"
                 >
-                  เรื่อง
+                  Topic
                 </label>
                 <input
                   type="text"
@@ -200,7 +200,7 @@ export default function ContactContent() {
                   htmlFor="message"
                   className="block text-sm font-medium text-gray-700 mb-1"
                 >
-                  ข้อความ
+                  Message
                 </label>
                 <textarea
                   id="message"

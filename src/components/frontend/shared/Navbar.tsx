@@ -62,7 +62,7 @@ export default function Navbar() {
                             Search
                         </Link>
                     )}
-                    <Link href="/articles" className="text-gray-600 hover:text-green-500">
+                    <Link href="#" className="text-gray-600 hover:text-green-500">
                         Articles
                     </Link>
                     <Link href="/contact" className="text-gray-600 hover:text-green-500">
