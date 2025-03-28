@@ -218,7 +218,7 @@ export default function ContactContent() {
                 disabled={isLoading}
                 className="w-full px-4 py-3 bg-emerald-500 text-white rounded-lg hover:bg-emerald-600 transition-colors disabled:opacity-50"
               >
-                {isLoading ? "กำลังส่ง..." : "ส่งข้อความ"}
+                {isLoading ? "Send..." : "Submit"}
               </button>
             </form>
           </div>
