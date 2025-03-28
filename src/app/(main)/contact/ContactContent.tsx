@@ -41,7 +41,7 @@ export default function ContactContent() {
     <div className="relative bg-white pt-24 pb-16">
       {/* ส่วนหัว */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6">ติดต่อเรา</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-6">Contact</h1>
         <p className="text-lg text-gray-600 mb-8">
           Have questions or concerns? We're ready to help you.
           Contact us through the channels below.
